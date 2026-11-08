@@ -1,0 +1,13 @@
+# The notebooks were run on Google Colab (T4 GPU) in September 2026, where most of
+# these packages are preinstalled.
+tensorflow>=2.16        # with Keras 3
+numpy
+pandas
+scikit-learn
+statsmodels
+matplotlib
+pillow
+kagglehub
+shap
+opencv-python-headless  # inpaint_telea masker used by SHAP
+imagehash               # scripts/duplicate_check.py
